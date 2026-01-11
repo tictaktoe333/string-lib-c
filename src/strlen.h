@@ -1,4 +1,4 @@
-int str_len(const char* str) {
+int strlen(const char* str) {
     const char* s = str;
     int length = 0;
     while (*s != '\0') {
